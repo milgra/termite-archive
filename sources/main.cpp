@@ -17,34 +17,23 @@
 
     #if defined WINDOWS
 
-    #include "bridge.h"
-
     #define GLEW_STATIC
     #include "GL/glew.h"
 
     #elif defined(IOS)
 
-    #include "bridge.h"
     #include <OpenGLES/ES1/gl.h>
     #include <OpenGLES/ES1/glext.h>
 
     #elif defined(ANDROID)
 
-    #include "../projects/sdl_droid/app/jni/src/bridge.h"
     #include <GLES2/gl2.h>
     #include <GLES2/gl2ext.h>
-
-    #elif defined(OSX)
-
-    #include "bridge.h"
-
-    #elif defined(UBUNTU)
-
-    #include "bridge.h"
 
     #endif
 
     #include "SDL.h"
+    #include "bridge.h"
 
     #include <time.h>
     #include <stdio.h>
@@ -68,81 +57,24 @@
 	char quit = 0;
 
 
-	void main_openurl( const char* url )
-	{
-
-        #if defined(OSX)
-
-        bridge_open( ( char* ) url );
-
-        #elif defined(IOS)
-
-        bridge_open( ( char* ) url );
-
-        #elif defined(ANDROID)
-
-        bridge_open( ( char* ) url );
-
-        #elif defined(WINDOWS)
-
-        bridge_open( ( char* ) url );
-
-        #elif defined(UBUNTU)
-
-        bridge_open( ( char* ) url );
-
-        #elif defined(RASPBERRY)
-
-        char newurl[100];
-        snprintf( newurl , 100 , "xdg-open %s", url );
-        system( newurl );
-
-        #endif
-
-	}
-
-
-    void main_donate( char* item )
-    {
-        #ifdef STEAM
-        steam_buy( item );
-        #else
-
-        #if defined(OSX)
-        bridge_buy( item );
-        #elif defined(WINDOWS)
-        bridge_buy( item );
-        #elif defined(UBUNTU)
-        bridge_buy( item );
-        #elif defined(RASPBERRY)
-        main_openurl( "https://paypal.me/milgra" );
-        #elif defined(IOS)
-        bridge_buy( item );
-        #elif defined(ANDROID)
-        bridge_buy( item );
-        #elif defined(STEAM)
-        bridge_buy( item );
-        #endif
-
-        #endif
-
-    }
-
-
     void main_onmessage( const char* name , void* data )
     {
 
         if ( strcmp( name , "DONATE") == 0 )
         {
-            main_donate( ( char* ) data );
+            #ifdef STEAM
+            steam_buy( ( char* ) data );
+            #else
+            bridge_buy( ( char* ) data  );
+            #endif
         }
         else if ( strcmp( name , "FEEDBACK") == 0 )
         {
-            main_openurl( "http://www.milgra.com/termite.html" );
+            bridge_open( ( char* ) "http://www.milgra.com/termite.html" );
         }
         else if ( strcmp( name , "HOMEPAGE") == 0 )
         {
-            main_openurl( "http://www.milgra.com" );
+            bridge_open( ( char* ) "http://www.milgra.com" );
         }
         else if ( strcmp( name , "FULLSCREEN") == 0 )
         {
@@ -181,13 +113,7 @@
 		v2_t dimensions = {.x = width * scale , .y= height * scale };
 		defaults.display_size = dimensions;
 
-        #if defined(IOS)
         bridge_init( ); // request donation prices from app store, init text scaling
-        #elif defined(ANDROID)
-        bridge_init( ); // request donation prices from app store, init text scaling
-        #elif defined(STEAM)
-        bridge_init();   // request donation inventory items/prices from steam store
-        #endif
 
         int framebuffer = 0;
         int renderbuffer = 0;
@@ -222,6 +148,8 @@
 
         settings_free( );
         mtbus_free();
+        
+        bridge_kill();
 
         #ifdef STEAM
         SteamAPI_Shutdown();
@@ -264,23 +192,6 @@
                     }
 
                 }
-//                else if( event.type == SDL_FINGERDOWN || event.type == SDL_FINGERUP || event.type == SDL_FINGERMOTION  )
-//                {
-//                    int x = event.tfinger.x;
-//                    int y = event.tfinger.y;
-//
-//                    input_t input = { 0 };
-//                    input.stringa = "mouse";
-//                    input.floata = x * 2;
-//                    input.floatb = y * 2;
-//
-//                    if ( event.type == SDL_FINGERDOWN ) { input.type = kInputTypeTouchDown; drag = 1; }
-//                    if ( event.type == SDL_FINGERUP ) { input.type = kInputTypeTouchUp; drag = 0; }
-//                    if ( event.type == SDL_FINGERMOTION && drag == 1 ) input.type = kInputTypeTouchDrag;
-//
-//                    if ( input.type > 0 ) controller_input( controller , &input );
-//
-//                }
                 else if ( event.type == SDL_QUIT )
                 {
                     quit = 1;
