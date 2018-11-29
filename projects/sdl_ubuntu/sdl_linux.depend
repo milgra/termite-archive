@@ -2377,3 +2377,227 @@
 
 1539695266 /home/milgra/Desktop/kinetic/game_swarm/projects/sdl_ios/Bridge.h
 
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1543500705 /home/milgra/Desktop/termite/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1543500705 /home/milgra/Desktop/termite/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543500705 /home/milgra/Desktop/termite/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543500705 /home/milgra/Desktop/termite/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543500705 /home/milgra/Desktop/termite/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543500705 /home/milgra/Desktop/termite/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543500705 /home/milgra/Desktop/termite/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1543500705 /home/milgra/Desktop/termite/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/math1.c
+	<stdio.h>
+	<math.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543500705 /home/milgra/Desktop/termite/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543500705 source:/home/milgra/Desktop/termite/framework/tools/triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+

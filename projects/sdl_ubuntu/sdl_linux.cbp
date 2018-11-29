@@ -189,6 +189,9 @@
 		<Unit filename="../sdl/include/SDL_vulkan.h" />
 		<Unit filename="../sdl/include/begin_code.h" />
 		<Unit filename="../sdl/include/close_code.h" />
+		<Unit filename="bridge.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../steam/CInventory.cpp" />
 		<Unit filename="../steam/CInventory.hpp" />
 		<Unit filename="../steam/steam/isteamapplist.h" />

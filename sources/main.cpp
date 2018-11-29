@@ -38,6 +38,10 @@
 
     #include "bridge.h"
 
+    #elif defined(UBUNTU)
+
+    #include "bridge.h"
+
     #endif
 
     #include "SDL.h"
@@ -83,7 +87,11 @@
 
         bridge_open( ( char* ) url );
 
-        #elif defined(RASPBERRY) || defined(UBUNTU)
+        #elif defined(UBUNTU)
+
+        bridge_open( ( char* ) url );
+
+        #elif defined(RASPBERRY)
 
         char newurl[100];
         snprintf( newurl , 100 , "xdg-open %s", url );
@@ -103,6 +111,8 @@
         #if defined(OSX)
         bridge_buy( item );
         #elif defined(WINDOWS)
+        bridge_buy( item );
+        #elif defined(UBUNTU)
         bridge_buy( item );
         #elif defined(RASPBERRY)
         main_openurl( "https://paypal.me/milgra" );
