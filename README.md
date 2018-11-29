@@ -250,6 +250,10 @@ Linux :
 
 - Figuring out what shared library does a binary/library use and where they are and which version is included is a nightmare. Your best friend is ldd and locate. The most annoying part that relative search paths are somehow written in the binary by the linker and you have to use magic macros to force the linker to link to your desired library! For example libsteam_api is linked to the product's folder with this linker option : "Wl,-rpath=\\$$$ORIGIN"
 
+CodeBlocks :
+
+Setting up compiler and linker include paths is a vital part for CodeBlocks/C compilation. Always check everything in project/build options. Always select the full release, the most common mistake is to set things for Debug or Release target only and you have no idea why it isn't working. Check compiler include paths, linker include paths for both targets carefully, check compiler and linker options also carefully. 
+
 SteamWorks :
 
 When uploading new inventory item descriptions be sure to validate it with an online json validator because steam won't tell you much about its problems - it just rejects the file. Good practice to start with the simplest file - one item and the unnecessary elements - and extend it if steam accepts is.
