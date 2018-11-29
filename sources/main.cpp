@@ -15,12 +15,7 @@
 
     // OpenGL
 
-    #if defined WINDOWS
-
-    #define GLEW_STATIC
-    #include "GL/glew.h"
-
-    #elif defined(IOS)
+    #if defined(IOS)
 
     #include <OpenGLES/ES1/gl.h>
     #include <OpenGLES/ES1/glext.h>
@@ -113,7 +108,11 @@
 		v2_t dimensions = {.x = width * scale , .y= height * scale };
 		defaults.display_size = dimensions;
 
-        bridge_init( ); // request donation prices from app store, init text scaling
+        #ifdef STEAM
+        steam_init();
+        #endif
+
+        bridge_init( ); // request donation prices from app store, init text scaling, init glfw
 
         int framebuffer = 0;
         int renderbuffer = 0;
@@ -148,7 +147,7 @@
 
         settings_free( );
         mtbus_free();
-        
+
         bridge_kill();
 
         #ifdef STEAM
@@ -254,35 +253,13 @@
     }
 
 
-    #if defined WINDOWS
-    char initGlew( )
-    {
-
-        GLint GlewInitResult = glewInit( );
-
-        if ( GLEW_OK != GlewInitResult )
-        {
-
-            const GLubyte* error = glewGetErrorString( GlewInitResult );
-            printf("ERROR: %s\n",error);
-            return 1;
-
-        }
-
-        return 0;
-
-    }
-    #endif
-
-
     int main ( int argc ,
                char * argv [ ] )
     {
 
+        // pit this in raspi bridge.c
         #ifdef RASPBERRY
         printf( "Please use the KMS OpenGL driver. sudo raspi-config -> Advanced options -> GL Driver -> G1 GL (Full KMS)\n" );
-        #elif defined( WINDOWS )
-        printf( "OpenGL 2.1 is needed. Please update your drivers if the game is not running.\n" );
         #endif
 
         // enable high dpi
@@ -361,21 +338,9 @@
 
                     if ( SDL_GL_SetSwapInterval( 1 ) < 0 ) printf( "SDL swap interval error %s\n" , SDL_GetError( ) );
 
-                    #if defined WINDOWS
-                    if ( initGlew( ) == 0 ) {
-                    #endif
-
-                    // SDL_StartTextInput( );
-
                     main_init( );
                     main_loop( );
                     main_free( );
-
-                    // SDL_StopTextInput();
-
-                    #if defined WINDOWS
-                    } else printf( "GLEW init error\n" );
-                    #endif
 
                     // cleanup
 

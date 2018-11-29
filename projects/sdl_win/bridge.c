@@ -4,10 +4,21 @@
 #include <windows.h>
 #include <ShellApi.h>
 #include "../../sources/bridge.h"
+#define GLEW_STATIC
+#include "GL/glew.h"
 
 void bridge_init( void )
 {
 
+    GLint GlewInitResult = glewInit( );
+
+    if ( GLEW_OK != GlewInitResult )
+    {
+
+        const GLubyte* error = glewGetErrorString( GlewInitResult );
+        printf("ERROR: %s\n",error);
+
+    }
 
 }
 

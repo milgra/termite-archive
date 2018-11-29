@@ -2557,18 +2557,14 @@
 	<OpenGL/glu.h>
 	<GL/glu.h>
 
-1543504625 source:c:\users\milgra\desktop\termite\sources\main.cpp
+1543516581 source:c:\users\milgra\desktop\termite\sources\main.cpp
 	"../projects/steam/CInventory.hpp"
-	"bridge.h"
-	"GL/glew.h"
-	"bridge.h"
 	<OpenGLES/ES1/gl.h>
 	<OpenGLES/ES1/glext.h>
-	"../projects/sdl_droid/app/jni/src/bridge.h"
 	<GLES2/gl2.h>
 	<GLES2/gl2ext.h>
-	"bridge.h"
 	"SDL.h"
+	"bridge.h"
 	<time.h>
 	<stdio.h>
 	"ui.c"
@@ -2691,7 +2687,7 @@
 
 1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steam_api_internal.h
 
-1543504052 c:\users\milgra\desktop\termite\sources\bridge.h
+1543516241 c:\users\milgra\desktop\termite\sources\bridge.h
 
 1543499517 c:\users\milgra\desktop\termite\projects\sdl_droid\app\jni\src\bridge.h
 
@@ -3213,4 +3209,12 @@
 	<X11/Xutil.h>
 	<X11/Xmd.h>
 	<GL/glew.h>
+
+1543516858 source:c:\users\milgra\desktop\termite\projects\sdl_win\bridge.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<ShellApi.h>
+	"../../sources/bridge.h"
+	"GL/glew.h"
 
