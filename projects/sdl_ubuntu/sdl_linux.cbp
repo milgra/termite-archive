@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game_swarm" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/termite" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/termite" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c99" />
+			<Add option="-DUBUNTU=1" />
+			<Add option="-DSTEAM=1" />
+			<Add directory="./" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2" />
+			<Add option="-pthread" />
+			<Add option="-lGL" />
+			<Add option="-lglut" />
+			<Add option="-lsteam_api" />
+			<Add option="-Wl,-rpath=\\$$$ORIGIN" />
+			<Add directory="lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="cp ./lib/*.* $(TARGET_OUTPUT_DIR)" />
+		</ExtraCommands>
+		<Unit filename="../../framework/core/mtbmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtcstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtpipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtvec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/ext/stb_image.h" />
+		<Unit filename="../../framework/ext/stb_truetype.h" />
+		<Unit filename="../../framework/tools/floatbuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/ogl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/physics2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/pixeltext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/triangulate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/ui/input.h" />
+		<Unit filename="../steam/CInventory.cpp" />
+		<Unit filename="../steam/CInventory.hpp" />
+		<Unit filename="../steam/steam/isteamapplist.h" />
+		<Unit filename="../steam/steam/isteamapps.h" />
+		<Unit filename="../steam/steam/isteamappticket.h" />
+		<Unit filename="../steam/steam/isteamclient.h" />
+		<Unit filename="../steam/steam/isteamcontroller.h" />
+		<Unit filename="../steam/steam/isteamfriends.h" />
+		<Unit filename="../steam/steam/isteamgamecoordinator.h" />
+		<Unit filename="../steam/steam/isteamgameserver.h" />
+		<Unit filename="../steam/steam/isteamgameserverstats.h" />
+		<Unit filename="../steam/steam/isteamhtmlsurface.h" />
+		<Unit filename="../steam/steam/isteamhttp.h" />
+		<Unit filename="../steam/steam/isteaminventory.h" />
+		<Unit filename="../steam/steam/isteammasterserverupdater.h" />
+		<Unit filename="../steam/steam/isteammatchmaking.h" />
+		<Unit filename="../steam/steam/isteammusic.h" />
+		<Unit filename="../steam/steam/isteammusicremote.h" />
+		<Unit filename="../steam/steam/isteamnetworking.h" />
+		<Unit filename="../steam/steam/isteamparentalsettings.h" />
+		<Unit filename="../steam/steam/isteamps3overlayrenderer.h" />
+		<Unit filename="../steam/steam/isteamremotestorage.h" />
+		<Unit filename="../steam/steam/isteamscreenshots.h" />
+		<Unit filename="../steam/steam/isteamugc.h" />
+		<Unit filename="../steam/steam/isteamuser.h" />
+		<Unit filename="../steam/steam/isteamuserstats.h" />
+		<Unit filename="../steam/steam/isteamutils.h" />
+		<Unit filename="../steam/steam/isteamvideo.h" />
+		<Unit filename="../steam/steam/matchmakingtypes.h" />
+		<Unit filename="../steam/steam/steam_api.h" />
+		<Unit filename="../steam/steam/steam_api_flat.h" />
+		<Unit filename="../steam/steam/steam_api_internal.h" />
+		<Unit filename="../steam/steam/steam_gameserver.h" />
+		<Unit filename="../steam/steam/steamclientpublic.h" />
+		<Unit filename="../steam/steam/steamencryptedappticket.h" />
+		<Unit filename="../steam/steam/steamhttpenums.h" />
+		<Unit filename="../steam/steam/steamps3params.h" />
+		<Unit filename="../steam/steam/steamtypes.h" />
+		<Unit filename="../steam/steam/steamuniverse.h" />
+		<Unit filename="../../sources/ant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/defaults.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/food.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/grid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/grid2d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/levels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/main.cpp" />
+		<Unit filename="../../sources/particle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/renderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/ui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/voxel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/voxelutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

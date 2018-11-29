@@ -1,0 +1,1324 @@
+# depslib dependency file v1.0
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/ext/jsmn.c
+	<stddef.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1531228871 /home/developer/Downloads/kinetic/game_swarm/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1531228859 /home/developer/Downloads/kinetic/game_swarm/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/font.c
+	<stdint.h>
+	"../core/mtbmp.c"
+	"../core/mtstr.c"
+	"../core/mtvec.c"
+	"../ext/stb_truetype.h"
+	"../ui/text.c"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+	"../tools/floatbuffer.c"
+	"../ext/stb_truetype.h"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/ext/stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<memory.h>
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/ui/text.c
+	"../../framework/tools/math2.c"
+	"../../framework/core/mtstr.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/image.c
+	"../core/mtmem.c"
+	"../core/mtbmp.c"
+	"../ext/stb_image.h"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/ext/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/json.c
+	"../ext/jsmn.c"
+	"../core/mtmap.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/ext/jsmn.c
+	<stddef.h>
+
+1531228832 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/math1.c
+	<stdio.h>
+	<math.h>
+
+1531228871 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1531228859 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glew.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1531229006 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/tools/triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1531227044 source:/home/developer/Downloads/kinetic/game_swarm/framework/ui/text.c
+	"../../framework/tools/math2.c"
+	"../../framework/core/mtstr.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+	"ant.c"
+	"food.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1531227045 /home/developer/Downloads/kinetic/game_swarm/sources/food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1531227045 /home/developer/Downloads/kinetic/game_swarm/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glew.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1531227045 source:/home/developer/Downloads/kinetic/game_swarm/sources/controller.c
+	<stdint.h>
+	"../framework/tools/ogl.c"
+	"../framework/ui/input.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/ui/input.h"
+	"../framework/core/mtbus.c"
+	"../framework/tools/settings.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/ui/input.h
+	"../core/mtstr.c"
+	"../tools/cmd.c"
+	"../tools/font.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/tools/cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/tools/font.c
+	<stdint.h>
+	"../core/mtbmp.c"
+	"../core/mtstr.c"
+	"../core/mtvec.c"
+	"../ext/stb_truetype.h"
+	"../ui/text.c"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+	"../tools/floatbuffer.c"
+	"../ext/stb_truetype.h"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/ui.c
+	<float.h>
+	"../framework/tools/font.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"pixelfont.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1531227044 /home/developer/Downloads/kinetic/game_swarm/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/pixelfont.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmem.c"
+	"../framework/tools/math2.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"GL/glu.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/scene.c
+	<stdio.h>
+	<sys/time.h>
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"grid.c"
+	<float.h>
+	<sys/time.h>
+	"ant.c"
+	"food.c"
+	"levels.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1532958700 /home/developer/Downloads/kinetic/game_swarm/sources/levels.c
+
+1531227045 /home/developer/Downloads/kinetic/game_swarm/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1531227045 source:/home/developer/Downloads/kinetic/game_swarm/sources/food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+	"ant.c"
+	"food.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/levels.c
+
+1531227045 source:/home/developer/Downloads/kinetic/game_swarm/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/pixelfont.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmem.c"
+	"../framework/tools/math2.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"GL/glu.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/scene.c
+	<stdio.h>
+	<sys/time.h>
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"grid.c"
+	<float.h>
+	<sys/time.h>
+	"ant.c"
+	"food.c"
+	"levels.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/ui.c
+	<float.h>
+	"../framework/tools/font.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"pixelfont.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1531227045 source:/home/developer/Downloads/kinetic/game_swarm/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1531229238 source:/home/developer/Downloads/kinetic/game_swarm/projects/sdl_linux/main.c
+	<stdio.h>
+	<SDL2/SDL.h>
+	"../../sources/controller.c"
+	"../../framework/ui/input.h"
+	"../../framework/core/mtcstr.c"
+
+1531227045 /home/developer/Downloads/kinetic/game_swarm/sources/controller.c
+	<stdint.h>
+	"../framework/tools/ogl.c"
+	"../framework/ui/input.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/ui/input.h"
+	"../framework/core/mtbus.c"
+	"../framework/tools/settings.c"
+
+1532958700 source:/home/developer/Downloads/kinetic/game_swarm/sources/main.c
+	<stdio.h>
+	<SDL2/SDL.h>
+	"controller.c"
+	"../framework/ui/input.h"
+	"../framework/core/mtcstr.c"
+	<GL/glew.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/ext/jsmn.c
+	<stddef.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/font.c
+	<stdint.h>
+	"../core/mtbmp.c"
+	"../core/mtstr.c"
+	"../core/mtvec.c"
+	"../ext/stb_truetype.h"
+	"../ui/text.c"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+	"../tools/floatbuffer.c"
+	"../ext/stb_truetype.h"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/ext/stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<memory.h>
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/ui/text.c
+	"../../framework/tools/math2.c"
+	"../../framework/core/mtstr.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/image.c
+	"../core/mtmem.c"
+	"../core/mtbmp.c"
+	"../ext/stb_image.h"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/ext/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/json.c
+	"../ext/jsmn.c"
+	"../core/mtmap.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/ext/jsmn.c
+	<stddef.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/math1.c
+	<stdio.h>
+	<math.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1537794451 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1532957076 source:/home/pi/Desktop/kinetic/game_swarm/framework/ui/text.c
+	"../../framework/tools/math2.c"
+	"../../framework/core/mtstr.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/sources/grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/sources/ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/sources/food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1533314109 /home/pi/Desktop/kinetic/game_swarm/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1537794451 /home/pi/Desktop/kinetic/game_swarm/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1537797494 /home/pi/Desktop/kinetic/game_swarm/sources/defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1532957084 source:/home/pi/Desktop/kinetic/game_swarm/sources/controller.c
+	<stdint.h>
+	"../framework/tools/ogl.c"
+	"../framework/ui/input.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/ui/input.h"
+	"../framework/core/mtbus.c"
+	"../framework/tools/settings.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/ui/input.h
+	"../core/mtstr.c"
+	"../tools/cmd.c"
+	"../tools/font.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/tools/cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/tools/font.c
+	<stdint.h>
+	"../core/mtbmp.c"
+	"../core/mtstr.c"
+	"../core/mtvec.c"
+	"../ext/stb_truetype.h"
+	"../ui/text.c"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+	"../tools/floatbuffer.c"
+	"../ext/stb_truetype.h"
+
+1537797765 /home/pi/Desktop/kinetic/game_swarm/sources/ui.c
+	<float.h>
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"../framework/tools/text.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1532957076 /home/pi/Desktop/kinetic/game_swarm/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1532957084 /home/pi/Desktop/kinetic/game_swarm/sources/pixelfont.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmem.c"
+	"../framework/tools/math2.c"
+
+1537797703 /home/pi/Desktop/kinetic/game_swarm/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/sources/scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/sources/levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1537797494 source:/home/pi/Desktop/kinetic/game_swarm/sources/defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1532957084 source:/home/pi/Desktop/kinetic/game_swarm/sources/pixelfont.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmem.c"
+	"../framework/tools/math2.c"
+
+1537797703 source:/home/pi/Desktop/kinetic/game_swarm/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/ui.c
+	<float.h>
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"../framework/tools/text.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1533314109 source:/home/pi/Desktop/kinetic/game_swarm/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1537793938 source:/home/pi/Desktop/kinetic/game_swarm/sources/main.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<SDL2/SDL.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+
+1532957084 /home/pi/Desktop/kinetic/game_swarm/sources/controller.c
+	<stdint.h>
+	"../framework/tools/ogl.c"
+	"../framework/ui/input.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/ui/input.h"
+	"../framework/core/mtbus.c"
+	"../framework/tools/settings.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/framework/tools/text.c
+	<stdlib.h>
+	"../core/mtvec.c"
+	"../core/mtstr.c"
+
+1537651294 source:/home/pi/Desktop/kinetic/game_swarm/sources/control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1537651294 /home/pi/Desktop/kinetic/game_swarm/sources/control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/framework/tools/text.c
+	<stdlib.h>
+	"../core/mtvec.c"
+	"../core/mtstr.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/sources/voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1537647246 /home/pi/Desktop/kinetic/game_swarm/framework/tools/pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1537647246 source:/home/pi/Desktop/kinetic/game_swarm/sources/voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1537790705 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/glow_es.fsh
+
+1537791582 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/glow_es.vsh
+
+1537791782 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blur_es.vsh
+
+1537793337 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blur_es.fsh
+
+1537792007 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blend_es.vsh
+
+1537793712 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blend_es.fsh
+
+1537791741 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/glow.vsh
+
+1537791762 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/glow.fsh
+
+1537791911 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blur.vsh
+
+1537793835 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blur.fsh
+
+1537792086 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blend.vsh
+
+1537793868 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blend.fsh
+

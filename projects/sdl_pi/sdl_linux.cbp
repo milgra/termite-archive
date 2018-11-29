@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="termite" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/termite" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/termite" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c99" />
+			<Add option="-DLINUX=1" />
+			<Add option="-DRASPBERRY=1" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2" />
+			<Add option="-pthread" />
+			<Add option="-lGLESv2" />
+			<Add option="-lEGL" />
+			<Add option="-lglut" />
+			<Add directory="/usr/lib/arm-linux-gnueabihf/" />
+		</Linker>
+		<ExtraCommands>
+			<Add before="pwd" />
+			<Add before="echo $(TARGET_OUTPUT_DIR)" />
+		</ExtraCommands>
+		<Unit filename="../../framework/core/mtbmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtcstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtpipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtvec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/ext/stb_image.h" />
+		<Unit filename="../../framework/ext/stb_truetype.h" />
+		<Unit filename="../../framework/tools/floatbuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/ogl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/physics2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/pixeltext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/triangulate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/ui/input.h" />
+		<Unit filename="../../sources/ant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/defaults.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/food.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/grid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/levels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/particle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/renderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/ui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/voxel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/voxelutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
