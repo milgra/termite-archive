@@ -522,6 +522,7 @@
 		33658BFB2174EDCF00B6111C /* mtstr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mtstr.c; sourceTree = "<group>"; };
 		33658BFC2174EDCF00B6111C /* mtmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mtmem.c; sourceTree = "<group>"; };
 		33658BFD2174EDCF00B6111C /* mtcstr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mtcstr.c; sourceTree = "<group>"; };
+		33C1184721B0366E00B67F2A /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8B4B96196703B400F8EB7C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		FAE0E9641BAF967F0098DFA4 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
@@ -1254,6 +1255,7 @@
 			children = (
 				33658BB62174EDC200B6111C /* shaders */,
 				33658BAD2174EDC200B6111C /* ant.c */,
+				33C1184721B0366E00B67F2A /* bridge.h */,
 				33658BB32174EDC200B6111C /* control.c */,
 				33658BB02174EDC200B6111C /* defaults.c */,
 				33658BC52174EDC200B6111C /* food.c */,

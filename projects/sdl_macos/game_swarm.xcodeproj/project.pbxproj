@@ -178,11 +178,12 @@
 		33B4B17D21AAF80700710503 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 33B4B17B21AAF80600710503 /* LICENSE */; };
 		33B4B17E21AAF80700710503 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 33B4B17C21AAF80700710503 /* README.md */; };
 		33C1184521B0305000B67F2A /* bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 33C1184421B0305000B67F2A /* bridge.c */; };
+		33C1184C21B0377900B67F2A /* CInventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C1184A21B0377600B67F2A /* CInventory.cpp */; };
+		33C1184E21B0378300B67F2A /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 33C1184D21B0378300B67F2A /* steam_appid.txt */; };
 		33D0BD9520F65D4800E05165 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D0BD9420F65D4800E05165 /* main.cpp */; };
 		33D8548C212571C300231424 /* pixeltext.c in Sources */ = {isa = PBXBuildFile; fileRef = 33D8548B212571C300231424 /* pixeltext.c */; };
 		33D8548F212571D200231424 /* voxelutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 33D8548E212571D200231424 /* voxelutil.c */; };
 		33D9D48521AFE9900013A223 /* libsteam_api.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9D48421AFE9900013A223 /* libsteam_api.dylib */; };
-		33D9D48921AFE9CB0013A223 /* CInventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D9D48821AFE9CB0013A223 /* CInventory.cpp */; };
 		33D9D48C21AFEB7D0013A223 /* libsteam_api.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9D48421AFE9900013A223 /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -590,13 +591,14 @@
 		33B4B17C21AAF80700710503 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 		33C1184221B02F3800B67F2A /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		33C1184421B0305000B67F2A /* bridge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bridge.c; path = game_swarm/bridge.c; sourceTree = SOURCE_ROOT; };
+		33C1184921B0377600B67F2A /* termite_items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = termite_items.json; path = ../../steam/termite_items.json; sourceTree = "<group>"; };
+		33C1184A21B0377600B67F2A /* CInventory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CInventory.cpp; path = ../../steam/CInventory.cpp; sourceTree = "<group>"; };
+		33C1184B21B0377600B67F2A /* CInventory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CInventory.hpp; path = ../../steam/CInventory.hpp; sourceTree = "<group>"; };
+		33C1184D21B0378300B67F2A /* steam_appid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = steam_appid.txt; path = ../../steam/steam_appid.txt; sourceTree = "<group>"; };
 		33D0BD9420F65D4800E05165 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		33D8548B212571C300231424 /* pixeltext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pixeltext.c; sourceTree = "<group>"; };
 		33D8548E212571D200231424 /* voxelutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = voxelutil.c; sourceTree = "<group>"; };
 		33D9D48421AFE9900013A223 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsteam_api.dylib; sourceTree = "<group>"; };
-		33D9D48721AFE9CB0013A223 /* CInventory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CInventory.hpp; path = ../../steam/CInventory.hpp; sourceTree = "<group>"; };
-		33D9D48821AFE9CB0013A223 /* CInventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CInventory.cpp; path = ../../steam/CInventory.cpp; sourceTree = "<group>"; };
-		33D9D48A21AFE9D20013A223 /* termite_items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = termite_items.json; path = ../../steam/termite_items.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -615,7 +617,7 @@
 		33325C2F20F38CCB004B97CF = {
 			isa = PBXGroup;
 			children = (
-				33D9D48621AFE9BE0013A223 /* steam */,
+				33C1184821B0376100B67F2A /* steam */,
 				33B4AB8D21AAA5CA00710503 /* sdl */,
 				33325C5D20F38FD7004B97CF /* framework */,
 				33325C9720F38FDE004B97CF /* sources */,
@@ -1439,12 +1441,13 @@
 			path = macos;
 			sourceTree = "<group>";
 		};
-		33D9D48621AFE9BE0013A223 /* steam */ = {
+		33C1184821B0376100B67F2A /* steam */ = {
 			isa = PBXGroup;
 			children = (
-				33D9D48A21AFE9D20013A223 /* termite_items.json */,
-				33D9D48821AFE9CB0013A223 /* CInventory.cpp */,
-				33D9D48721AFE9CB0013A223 /* CInventory.hpp */,
+				33C1184A21B0377600B67F2A /* CInventory.cpp */,
+				33C1184B21B0377600B67F2A /* CInventory.hpp */,
+				33C1184921B0377600B67F2A /* termite_items.json */,
+				33C1184D21B0378300B67F2A /* steam_appid.txt */,
 			);
 			path = steam;
 			sourceTree = "<group>";
@@ -1513,6 +1516,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C1184E21B0378300B67F2A /* steam_appid.txt in Resources */,
 				33B4B17D21AAF80700710503 /* LICENSE in Resources */,
 				33325C4E20F38D75004B97CF /* Assets.xcassets in Resources */,
 				33B4B17E21AAF80700710503 /* README.md in Resources */,
@@ -1543,6 +1547,7 @@
 				33325C8A20F38FD7004B97CF /* floatbuffer.c in Sources */,
 				33B4B04521AAA5CB00710503 /* SDL_x11opengles.c in Sources */,
 				33B4B09821AAA5CC00710503 /* SDL_blendfillrect.c in Sources */,
+				33C1184C21B0377900B67F2A /* CInventory.cpp in Sources */,
 				33B4B0AD21AAA5CC00710503 /* SDL.c in Sources */,
 				33B4AFB921AAA5CB00710503 /* SDL_blit_slow.c in Sources */,
 				33B4B11921AAA5CC00710503 /* SDL_string.c in Sources */,
@@ -1685,7 +1690,6 @@
 				33B4B03A21AAA5CB00710503 /* SDL_x11framebuffer.c in Sources */,
 				33B4AFC421AAA5CB00710503 /* SDL_blit_copy.c in Sources */,
 				33B4B14621AAA5CC00710503 /* SDL_gesture.c in Sources */,
-				33D9D48921AFE9CB0013A223 /* CInventory.cpp in Sources */,
 				33B4AFFE21AAA5CB00710503 /* SDL_cocoaevents.m in Sources */,
 				33B4B15121AAA5CC00710503 /* SDL_cpuinfo.c in Sources */,
 				33B4AFFC21AAA5CB00710503 /* SDL_cocoavideo.m in Sources */,

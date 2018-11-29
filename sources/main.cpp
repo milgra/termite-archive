@@ -24,7 +24,7 @@
 
     #elif defined(IOS)
 
-    #include "../projects/sdl_ios/Bridge.h"
+    #include "bridge.h"
     #include <OpenGLES/ES1/gl.h>
     #include <OpenGLES/ES1/glext.h>
 

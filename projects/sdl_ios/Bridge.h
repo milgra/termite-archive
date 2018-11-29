@@ -21,11 +21,6 @@
 
 @end
 
-void bridge_init( void );
-void bridge_open( char* url );
-void bridge_buy( char* item );
-
-
 #endif /* Bridge_h */
 
 extern Bridge* bridge;
