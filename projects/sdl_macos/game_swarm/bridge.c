@@ -7,3 +7,31 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include "bridge.h"
+
+void bridge_init( )
+{
+
+}
+
+void bridge_kill( )
+{
+
+}
+
+void bridge_buy( char* item )
+{
+
+    bridge_open( "https://paypal.me/milgra" );
+
+}
+
+void bridge_open( char* url )
+{
+
+    char newurl[100];
+    snprintf( newurl , 100 , "open %s", url );
+    system( newurl );
+
+}

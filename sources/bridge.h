@@ -9,5 +9,9 @@
 #ifndef bridge_h
 #define bridge_h
 
+void bridge_init( void );
+void bridge_kill( void );
+void bridge_buy( char* item );
+void bridge_open( char* url );
 
 #endif /* bridge_h */
