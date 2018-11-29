@@ -53,8 +53,11 @@ You will need git ( installing with homebrew is the easiest way https://brew.sh 
 Project : 
 
 The Xcode project file for the MacOS project is projects/sdl_macos/game_swarm.xcodeproject . 
+
 The project is self-contained, doesn't use any external libraries.
+
 SDL is added as source - all SDL header and source files are under "sdl" group.
+
 Steam integration files are under "steam" group - it is one c++ class, it is called CInventory. 
 
 The project uses one dynamic library : the libsteam_api.dylib, which is under the project folder and it is copied to the final bundle on build.
@@ -87,7 +90,9 @@ To link against the steam runtime from Code::Blocks a little trick has to be don
 Project : 
 
 The project is self-contained, doesn't use any external libraries.
+
 SDL is added as source - all SDL header and source files are under "sdl" group. ???
+
 Steam integration files are under "steam" group - it is one c++ class, it is called CInventory. 
 
 The Code::Blocks project file for the Ubuntu project is projects/sdl_ubuntu/sdl_linux.cbp . 
@@ -111,7 +116,9 @@ GitBash is also mandatory : not only gives it git to you but it gives a bash ter
 Project : 
 
 The project is self-contained, doesn't use any external libraries.
+
 SDL is added as source - all SDL header and source files are under "sdl" group. ???
+
 Steam integration files are under "steam" group - it is one c++ class, it is called CInventory. 
 
 The Code::Blocks project file for the Windows project is projects/sdl_ubuntu/sdl_win.cbp .
