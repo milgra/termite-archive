@@ -91,8 +91,6 @@ Project :
 
 The project is self-contained, doesn't use any external libraries.
 
-SDL is added as source - all SDL header and source files are under "sdl" group. ???
-
 Steam integration files are under "steam" group - it is one c++ class, it is called CInventory. 
 
 The Code::Blocks project file for the Ubuntu project is projects/sdl_ubuntu/sdl_linux.cbp . 
@@ -111,13 +109,11 @@ Code::Blocks is needed for IDE. You should download the MinGW version. MinGW is 
 
 Since we use the MinGW libraries we have to ship them with the game so the game on windows is quite self-contained.
 
-GitBash is also mandatory : not only gives it git to you but it gives a bash terminal unix commands, super cool!
+GitBash is also mandatory : not only gives it git to you but it gives a bash terminal with unix commands, super cool!
 
 Project : 
 
 The project is self-contained, doesn't use any external libraries.
-
-SDL is added as source - all SDL header and source files are under "sdl" group. ???
 
 Steam integration files are under "steam" group - it is one c++ class, it is called CInventory. 
 
@@ -167,7 +163,7 @@ Select release build variant, then generate signed APK from Build menu, then loc
 
 ### Steam Store Setup
 
-There are multiple ways to implement donations in steam and I chose the Steam Inventory Service because it's simplicity. To enable the item store, go to your game's SteamWorks admin, Community tab -> Inventory Service. Enable inventroy service with the checkbox and at the Item Definitons part upload your item definiton file. For Termite it is projects/steam/termite_items.json . After this you are able to reach/buy your items from the game through the SteamWorks API. 
+There are multiple ways to implement donations in steam and I chose the Steam Inventory Service because of it's simplicity. To enable it, go to your game's SteamWorks admin, Community tab -> Inventory Service. Enable inventroy service with the checkbox and at the Item Definitons part upload your item definiton file. For Termite it is projects/steam/termite_items.json . After this you are able to reach/buy your items from the game through the SteamWorks API. 
 
 
 ### App Store Setup
@@ -196,7 +192,7 @@ You have to install Steam on all platforms ( besides SteamOS ) and the Steam cli
 
 Windows and Ubuntu should install seamlessly in VMWare but there was a problem with SteamOS - by default it tries to use the NVidia video drivers and it fails. So you have to CTRL+ALT+FX to a working terminal, log in with the default user ( desktop ), and delete NVidia drivers from the system. After a restart it should work with the default drivers, if not, try to install VMWare tools or Mesa drivers.
 
-For Raspberry you need a real device, a model with WiFi is the simplest.
+For Raspberry you need a real device, a model with WiFi is the best.
 
 For iOS/Android testing the emulator is good for dev-time testing, but for in-app purchases and gameplay you need to get a device temporarily.
 
@@ -282,5 +278,7 @@ For open-source programs apt-get install is fun until you have to add new source
 iOS and it's API's became way too complicated. Doing autolayout in Interface Builder is a lifelong journey, doing things that were super simple back in 2010 are now super-complicated ( hiding the status bar, rotation, etc ), entitlements files are everywhere for increased security. The biggest pain was an fopen issue, it worked a few years earlier but now it only creates the file and then it cannot be read/written. It turned out that fopen on iOS creates files with 0000 permissions instead of 0666 which caused a 2-hour head scratching. Using open with explicit permissions solves the problem but why did fopen became obsolete?
 
 Raspberry is a super cool little machine. It was super easy to port the game to it, runs well, I love it.
+
+Steamworks is a mess. The API is a mess and the site is a mess. I spent days clicking through the site and I still have no idea how to go to the steamworks admin/store admin/the main page of the application with one click, I think it's impossible. Settings are scattered everywhere and the whole thing is backed by Perforce!!! You have to publish your changes every time to Perforce, it's insane. It's like a high school project. The documentation is not really talkative, I used the Steamworks sample project, the documentation and google together to fix issues but I wasn't prepared for random persistence errors which can be solved by disabling and re-enabling Inventory Service for example. But they are the biggest, have infinite money, they can do this :)
 
 The best OS for multiplatform development is definitely MacOS. It puts everything under your ass out of the box and then gets out of your way. It has everything that linux has and everything that windows has and much much more.
