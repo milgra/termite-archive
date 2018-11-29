@@ -80,7 +80,7 @@ If you target SteamOS ( on Raspbian the following are unnecessary ) :
 
 Schroot is needed. apt-get install schroot!
 
-You have to checkout and build the steam-runtime ( https://github.com/ValveSoftware/steam-runtime ), which a distribution-independent collection of linux libraries, and if you link your project against them then your game will run on all linux distros having steam or steam-runtime installed and it will run on SteamOS also. It will create a chroot folder on your machine for development & testing.
+You have to checkout and build the steam-runtime ( https://github.com/ValveSoftware/steam-runtime ), which is a distribution-independent collection of linux libraries, and if you link your project against them then your game will run on all linux distros having steam or steam-runtime installed and it will run on SteamOS also. It will create a chroot folder on your machine for development & testing.
 
 To link against the steam runtime from Code::Blocks a little trick has to be done : you have to schroot into the steam-runtime installed directory root ( schroot /home/../steam_runtime ), install Code::Blocks there ( sudo apt-get install codeblocks ) and run codeblocks from there so codeblocks will link againt the system libraries inside the chroot which are the steam-runtime libraries. The funny thing is that you cannot debug or run the game from inside the chroot for some reason I was lazy to go after, so if you want to test/debug then you have to start codeblocks outside chroot and link directly against the steam runtime libs. 
 
