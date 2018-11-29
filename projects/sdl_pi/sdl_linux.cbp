@@ -41,11 +41,13 @@
 			<Add option="-lGLESv2" />
 			<Add option="-lEGL" />
 			<Add option="-lglut" />
+			<Add option="-Wl,-rpath=\$$$ORIGIN" />
 			<Add directory="/usr/lib/arm-linux-gnueabihf/" />
 		</Linker>
 		<ExtraCommands>
 			<Add before="pwd" />
 			<Add before="echo $(TARGET_OUTPUT_DIR)" />
+			<Add after="cp lib/*.* $(TARGET_OUTPUT_DIR)" />
 		</ExtraCommands>
 		<Unit filename="../../framework/core/mtbmp.c">
 			<Option compilerVar="CC" />
@@ -99,9 +101,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../framework/tools/settings.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../../framework/tools/text.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../framework/tools/triangulate.c">
