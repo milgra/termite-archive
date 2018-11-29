@@ -34,9 +34,24 @@ void bridge_init( )
 }
 
 
+void bridge_kill( void )
+{
+
+
+}
+
 void bridge_open( char* url )
 {
 
+    javaEnv = Android_JNI_GetEnv();
+
+    jstring jstr = (*javaEnv)->NewStringUTF(javaEnv, url);
+
+    jclass clazz = (*javaEnv)->FindClass(javaEnv,"com/milgra/termite/Termite");
+    // Get the method that you want to call
+    jmethodID openURL = (*javaEnv)->GetStaticMethodID(javaEnv,clazz, "openURL", "(Ljava/lang/String;)V");
+    // Call the method on the object
+    (*javaEnv)->CallStaticVoidMethod(javaEnv,clazz,openURL,jstr);
 
 }
 

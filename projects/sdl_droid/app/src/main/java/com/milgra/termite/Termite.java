@@ -1,5 +1,7 @@
 package com.milgra.termite;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -179,4 +181,17 @@ public class Termite extends SDLActivity implements PurchasesUpdatedListener {
         Log.i( "TERMITE" , "purchase repsonsecode : "  + responseCode );
     }
 
+    public static void openURL( String url )
+    {
+        statictermite.openURLInst( url );
+    }
+
+
+    public void openURLInst( String url )
+    {
+        Uri uriUrl = Uri.parse( url );
+        Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
+        intent.setFlags( Intent.FLAG_ACTIVITY_NEW_TASK );
+        startActivity( intent );
+    }
 }
