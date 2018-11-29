@@ -108,6 +108,7 @@
 		<Unit filename="../../sources/ant.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../sources/bridge.h" />
 		<Unit filename="../../sources/control.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -243,6 +244,9 @@
 		<Unit filename="../sdl/include/close_code.h" />
 		<Unit filename="../steam/CInventory.cpp" />
 		<Unit filename="../steam/CInventory.hpp" />
+		<Unit filename="bridge.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="glew/glew.c">
 			<Option compilerVar="CC" />
 		</Unit>

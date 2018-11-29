@@ -2557,3 +2557,660 @@
 	<OpenGL/glu.h>
 	<GL/glu.h>
 
+1543504625 source:c:\users\milgra\desktop\termite\sources\main.cpp
+	"../projects/steam/CInventory.hpp"
+	"bridge.h"
+	"GL/glew.h"
+	"bridge.h"
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	"../projects/sdl_droid/app/jni/src/bridge.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"bridge.h"
+	"SDL.h"
+	<time.h>
+	<stdio.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+
+1543504052 c:\users\milgra\desktop\termite\projects\steam\cinventory.hpp
+	<stdio.h>
+	"steam/steam_api.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steam_api.h
+	"isteamclient.h"
+	"isteamuser.h"
+	"isteamfriends.h"
+	"isteamutils.h"
+	"isteammatchmaking.h"
+	"isteamuserstats.h"
+	"isteamapps.h"
+	"isteamnetworking.h"
+	"isteamremotestorage.h"
+	"isteamscreenshots.h"
+	"isteammusic.h"
+	"isteammusicremote.h"
+	"isteamhttp.h"
+	"isteamcontroller.h"
+	"isteamugc.h"
+	"isteamapplist.h"
+	"isteamhtmlsurface.h"
+	"isteaminventory.h"
+	"isteamvideo.h"
+	"isteamparentalsettings.h"
+	"steam_api_internal.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamclient.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamtypes.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamclientpublic.h
+	"steamtypes.h"
+	"steamuniverse.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamuniverse.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamuser.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamfriends.h
+	"isteamclient.h"
+	"steamclientpublic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamutils.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteammatchmaking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+	"matchmakingtypes.h"
+	"isteamclient.h"
+	"isteamfriends.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\matchmakingtypes.h
+	<stdio.h>
+	<string.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamuserstats.h
+	"isteamclient.h"
+	"isteamremotestorage.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamremotestorage.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamapps.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamnetworking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamscreenshots.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteammusic.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteammusicremote.h
+	"isteamclient.h"
+	"isteammusic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamhttp.h
+	"isteamclient.h"
+	"steamhttpenums.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamhttpenums.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamcontroller.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamugc.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamapplist.h
+	"isteamclient.h"
+	"steamtypes.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamhtmlsurface.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteaminventory.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamvideo.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamparentalsettings.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steam_api_internal.h
+
+1543504052 c:\users\milgra\desktop\termite\sources\bridge.h
+
+1543499517 c:\users\milgra\desktop\termite\projects\sdl_droid\app\jni\src\bridge.h
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\begin_code.h
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\close_code.h
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499518 c:\users\milgra\desktop\termite\sources\ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\projects\steam\cinventory.cpp
+	"CInventory.hpp"
+	"steam/steam_api.h"
+	"../../sources/defaults.c"
+	"../../framework/core/mtbus.c"
+	"../../framework/core/mtcstr.c"
+	"../../framework/tools/settings.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\projects\sdl_win\glew\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\eglew.h
+	<sys/types.h>
+	<KHR/khrplatform.h>
+	<EGL/eglplatform.h>
+	<GL/glew.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\wglew.h
+	<windows.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+

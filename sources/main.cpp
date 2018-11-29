@@ -17,10 +17,10 @@
 
     #if defined WINDOWS
 
+    #include "bridge.h"
+
     #define GLEW_STATIC
     #include "GL/glew.h"
-    #include <windows.h>
-    #include <ShellApi.h>
 
     #elif defined(IOS)
 
@@ -78,10 +78,10 @@
         #elif defined(ANDROID)
 
         bridge_open( ( char* ) url );
-        
+
         #elif defined(WINDOWS)
 
-        ShellExecute(0,"open",url,NULL,NULL,1);
+        bridge_open( ( char* ) url );
 
         #elif defined(RASPBERRY) || defined(UBUNTU)
 
@@ -101,6 +101,8 @@
         #else
 
         #if defined(OSX)
+        bridge_buy( item );
+        #elif defined(WINDOWS)
         bridge_buy( item );
         #elif defined(RASPBERRY)
         main_openurl( "https://paypal.me/milgra" );
