@@ -27,8 +27,11 @@ Comment on Termite/Message the author :
 ## Project structure
 
 framework - my own core library functions and tools. mt prefix stands for Milan Toth.
+
 projects - projects and related files for all platforms, for sdl and for steam
+
 sources - game source files and shaders
+
 storage - differenct store related assets
 
 ---
@@ -213,8 +216,11 @@ Shader trick. As you see the shader files are not valid shader files, they are C
 ### Files
 
 main.cpp - SDL handling, top level event handling
+
 ui.c - ui handling rendering ( main module )
+
 scene.c - scene handling and rendering ( main module )
+
 renderer.c - rendering ( main module )
 
 --
