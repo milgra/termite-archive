@@ -7,3 +7,4 @@ projects/sdl_ios/game_swarm.xcodeproj/project.xcworkspace/
 /projects/sdl_droid/app/.externalNativeBuild
 /projects/sdl_droid/.idea
 /projects/sdl_droid/.gradle
+/projects/sdl_droid/build

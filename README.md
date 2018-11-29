@@ -254,6 +254,8 @@ SteamWorks :
 
 When uploading new inventory item descriptions be sure to validate it with an online json validator because steam won't tell you much about its problems - it just rejects the file. Good practice to start with the simplest file - one item and the unnecessary elements - and extend it if steam accepts is.
 
+If Invetory Store stops working for testers, try to disabe/enable the steam inventory store for your app, it worked for me.
+
 --
 
 ## My humble opinion on platforms

@@ -81,9 +81,9 @@ public class Termite extends SDLActivity implements PurchasesUpdatedListener {
 //        skuList.add("android.test.purchased");
 //        skuList.add("android.test.purchased");
 
-        skuList.add("termitesmalldonation");
-        skuList.add("termitemediumdonation");
-        skuList.add("termitenormaldonation");
+        skuList.add("termitedonationsmall");
+        skuList.add("termitedonationmedium");
+        skuList.add("termitedonationnormal");
 
         SkuDetailsParams.Builder params = SkuDetailsParams.newBuilder( );
         params.setSkusList( skuList ).setType( BillingClient.SkuType.INAPP );
@@ -101,18 +101,19 @@ public class Termite extends SDLActivity implements PurchasesUpdatedListener {
                             for (SkuDetails skuDetails : skuDetailsList) {
                                 String sku = skuDetails.getSku();
                                 String price = skuDetails.getPrice();
+                                String curr = skuDetails.getPriceCurrencyCode();
                                 String title = skuDetails.getTitle();
 
                                 Log.i( "TERMITE" , "sku : " + sku + " price : " + price + " title : " + title );
 
-                                if ("termitesmalldonation".equals(sku)) {
-                                    storeitem( 0 , price );
+                                if ("termitedonationsmall".equals(sku)) {
+                                    storeitem( 0 , price + " " + curr );
                                     itemIds[0]=sku;
-                                } else if ("termitemediumdonation".equals(sku)) {
-                                    storeitem( 1 , price );
+                                } else if ("termitedonationmedium".equals(sku)) {
+                                    storeitem( 1 , price + " " + curr  );
                                     itemIds[1]=sku;
-                                } else if ("termitenormaldonation".equals(sku)) {
-                                    storeitem( 2 , price );
+                                } else if ("termitedonationnormal".equals(sku)) {
+                                    storeitem( 2 , price + " " + curr  );
                                     itemIds[2]=sku;
                                 }
                             }
