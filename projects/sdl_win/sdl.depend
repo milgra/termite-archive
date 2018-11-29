@@ -2097,3 +2097,463 @@
 	"../../framework/core/mtcstr.c"
 	"../../framework/tools/settings.c"
 
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math1.c
+	<stdio.h>
+	<math.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543499518 c:\users\milgra\desktop\termite\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow_es.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow_es.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur_es.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur_es.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend_es.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend_es.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+

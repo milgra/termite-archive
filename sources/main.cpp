@@ -36,7 +36,7 @@
 
     #endif
 
-    #if defined(WINDOWS) || defined(UBUNTU)
+    #if defined(UBUNTU)
     #include "SDL2/SDL.h"
     #else
     #include "SDL.h"
