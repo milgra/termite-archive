@@ -34,6 +34,10 @@
     #include <GLES2/gl2.h>
     #include <GLES2/gl2ext.h>
 
+    #elif defined(OSX)
+
+    #include "bridge.h"
+
     #endif
 
     #include "SDL.h"
@@ -63,20 +67,18 @@
 	void main_openurl( const char* url )
 	{
 
-        #if defined(IOS)
+        #if defined(OSX)
+
+        bridge_open( ( char* ) url );
+
+        #elif defined(IOS)
 
         bridge_open( ( char* ) url );
 
         #elif defined(ANDROID)
 
         bridge_open( ( char* ) url );
-
-        #elif defined(OSX)
-
-        char newurl[100];
-        snprintf( newurl , 100 , "open %s", url );
-        system( newurl );
-
+        
         #elif defined(WINDOWS)
 
         ShellExecute(0,"open",url,NULL,NULL,1);
@@ -94,15 +96,22 @@
 
     void main_donate( char* item )
     {
+        #ifdef STEAM
+        steam_buy( item );
+        #else
 
-        #if defined(RASPBERRY)
+        #if defined(OSX)
+        bridge_buy( item );
+        #elif defined(RASPBERRY)
         main_openurl( "https://paypal.me/milgra" );
         #elif defined(IOS)
         bridge_buy( item );
         #elif defined(ANDROID)
         bridge_buy( item );
         #elif defined(STEAM)
-        steam_buy( item );
+        bridge_buy( item );
+        #endif
+
         #endif
 
     }
@@ -165,7 +174,7 @@
         #elif defined(ANDROID)
         bridge_init( ); // request donation prices from app store, init text scaling
         #elif defined(STEAM)
-        steam_init();   // request donation inventory items/prices from steam store
+        bridge_init();   // request donation inventory items/prices from steam store
         #endif
 
         int framebuffer = 0;

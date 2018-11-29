@@ -177,6 +177,7 @@
 		33B4B16A21AAA5CC00710503 /* SDL_sysloadso.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B4AF9321AAA5CB00710503 /* SDL_sysloadso.c */; };
 		33B4B17D21AAF80700710503 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 33B4B17B21AAF80600710503 /* LICENSE */; };
 		33B4B17E21AAF80700710503 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 33B4B17C21AAF80700710503 /* README.md */; };
+		33C1184521B0305000B67F2A /* bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 33C1184421B0305000B67F2A /* bridge.c */; };
 		33D0BD9520F65D4800E05165 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D0BD9420F65D4800E05165 /* main.cpp */; };
 		33D8548C212571C300231424 /* pixeltext.c in Sources */ = {isa = PBXBuildFile; fileRef = 33D8548B212571C300231424 /* pixeltext.c */; };
 		33D8548F212571D200231424 /* voxelutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 33D8548E212571D200231424 /* voxelutil.c */; };
@@ -587,6 +588,8 @@
 		33B4B16C21AAA90400710503 /* hidapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hidapi.h; sourceTree = "<group>"; };
 		33B4B17B21AAF80600710503 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
 		33B4B17C21AAF80700710503 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		33C1184221B02F3800B67F2A /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		33C1184421B0305000B67F2A /* bridge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bridge.c; path = game_swarm/bridge.c; sourceTree = SOURCE_ROOT; };
 		33D0BD9420F65D4800E05165 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		33D8548B212571C300231424 /* pixeltext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pixeltext.c; sourceTree = "<group>"; };
 		33D8548E212571D200231424 /* voxelutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = voxelutil.c; sourceTree = "<group>"; };
@@ -689,6 +692,7 @@
 		33325C9720F38FDE004B97CF /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				33C1184321B0303200B67F2A /* macos */,
 				33325C9F20F38FDE004B97CF /* shaders */,
 				33325C9920F38FDE004B97CF /* ant.c */,
 				334D74DB2143EB7A004F6548 /* control.c */,
@@ -704,6 +708,7 @@
 				33325CB020F38FDE004B97CF /* voxel.c */,
 				33D8548E212571D200231424 /* voxelutil.c */,
 				330E0A9A21A1EE09004B9188 /* grid2d.c */,
+				33C1184221B02F3800B67F2A /* bridge.h */,
 			);
 			name = sources;
 			path = ../../sources;
@@ -1426,6 +1431,14 @@
 			path = hidapi;
 			sourceTree = "<group>";
 		};
+		33C1184321B0303200B67F2A /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				33C1184421B0305000B67F2A /* bridge.c */,
+			);
+			path = macos;
+			sourceTree = "<group>";
+		};
 		33D9D48621AFE9BE0013A223 /* steam */ = {
 			isa = PBXGroup;
 			children = (
@@ -1580,6 +1593,7 @@
 				33325CB420F38FDE004B97CF /* defaults.c in Sources */,
 				33B4AFD221AAA5CB00710503 /* SDL_rect.c in Sources */,
 				33B4AFFB21AAA5CB00710503 /* SDL_cocoawindow.m in Sources */,
+				33C1184521B0305000B67F2A /* bridge.c in Sources */,
 				33B4B09121AAA5CC00710503 /* SDL_yuv_sw.c in Sources */,
 				33B4B01121AAA5CB00710503 /* SDL_egl.c in Sources */,
 				33B4B04021AAA5CB00710503 /* SDL_x11keyboard.c in Sources */,

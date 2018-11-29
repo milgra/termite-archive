@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "steam/steam_api.h"
 
-void steam_init( );
+void steam_init( void );
 void steam_buy( char* item );
 
 class CInventory final
