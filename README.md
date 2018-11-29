@@ -275,3 +275,5 @@ For open-source programs apt-get install is fun until you have to add new source
 iOS and it's API's became way too complicated. Doing autolayout in Interface Builder is a lifelong journey, doing things that were super simple back in 2010 are now super-complicated ( hiding the status bar, rotation, etc ), entitlements files are everywhere for increased security. The biggest pain was an fopen issue, it worked a few years earlier but now it only creates the file and then it cannot be read/written. It turned out that fopen on iOS creates files with 0000 permissions instead of 0666 which caused a 2-hour head scratching. Using open with explicit permissions solves the problem but why did fopen became obsolete?
 
 Raspberry is a super cool little machine. It was super easy to port the game to it, runs well, I love it.
+
+The best OS for multiplatform development is definitely MacOS. It puts everything under your ass out of the box and then gets out of your way. It has everything that linux has and everything that windows has and much much more.
