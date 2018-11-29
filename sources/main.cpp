@@ -36,11 +36,7 @@
 
     #endif
 
-    #if defined(UBUNTU)
-    #include "SDL2/SDL.h"
-    #else
     #include "SDL.h"
-    #endif // defined
 
     #include <time.h>
     #include <stdio.h>
