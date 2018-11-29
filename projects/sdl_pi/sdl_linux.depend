@@ -1322,3 +1322,1063 @@
 
 1537793868 /home/pi/Desktop/kinetic/game_swarm/sources/shaders/blend.fsh
 
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1543530033 /home/pi/Desktop/termite/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1543530033 /home/pi/Desktop/termite/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543530033 /home/pi/Desktop/termite/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543530033 /home/pi/Desktop/termite/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543530033 /home/pi/Desktop/termite/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543530033 /home/pi/Desktop/termite/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543530033 /home/pi/Desktop/termite/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1543530033 /home/pi/Desktop/termite/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/math1.c
+	<stdio.h>
+	<math.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543530033 /home/pi/Desktop/termite/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543530033 source:/home/pi/Desktop/termite/framework/tools/triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1543530034 /home/pi/Desktop/termite/sources/grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1543530034 /home/pi/Desktop/termite/sources/grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1543530034 /home/pi/Desktop/termite/sources/ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1543530034 /home/pi/Desktop/termite/sources/food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1543530034 /home/pi/Desktop/termite/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1543530033 /home/pi/Desktop/termite/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1543530033 /home/pi/Desktop/termite/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543530034 /home/pi/Desktop/termite/sources/defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1543530033 /home/pi/Desktop/termite/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543530034 source:/home/pi/Desktop/termite/sources/defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1543530034 /home/pi/Desktop/termite/sources/scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1543530034 /home/pi/Desktop/termite/sources/levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1543530034 /home/pi/Desktop/termite/sources/control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543530034 /home/pi/Desktop/termite/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1543530033 /home/pi/Desktop/termite/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/glow_es.vsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/glow_es.fsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blur_es.vsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blur_es.fsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blend_es.vsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blend_es.fsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/glow.vsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/glow.fsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blur.vsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blur.fsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blend.vsh
+
+1543530034 /home/pi/Desktop/termite/sources/shaders/blend.fsh
+
+1543530034 /home/pi/Desktop/termite/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1543530034 source:/home/pi/Desktop/termite/sources/scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1543530034 /home/pi/Desktop/termite/sources/voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1543530033 /home/pi/Desktop/termite/framework/tools/pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543530444 source:/home/pi/Desktop/termite/sources/main.cpp
+	"../projects/steam/CInventory.hpp"
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"SDL.h"
+	"bridge.h"
+	<time.h>
+	<stdio.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/CInventory.hpp
+	<stdio.h>
+	"steam/steam_api.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/steam_api.h
+	"isteamclient.h"
+	"isteamuser.h"
+	"isteamfriends.h"
+	"isteamutils.h"
+	"isteammatchmaking.h"
+	"isteamuserstats.h"
+	"isteamapps.h"
+	"isteamnetworking.h"
+	"isteamremotestorage.h"
+	"isteamscreenshots.h"
+	"isteammusic.h"
+	"isteammusicremote.h"
+	"isteamhttp.h"
+	"isteamcontroller.h"
+	"isteamugc.h"
+	"isteamapplist.h"
+	"isteamhtmlsurface.h"
+	"isteaminventory.h"
+	"isteamvideo.h"
+	"isteamparentalsettings.h"
+	"steam_api_internal.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamclient.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/steamtypes.h
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/steamclientpublic.h
+	"steamtypes.h"
+	"steamuniverse.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/steamuniverse.h
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamuser.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamfriends.h
+	"isteamclient.h"
+	"steamclientpublic.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamutils.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteammatchmaking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+	"matchmakingtypes.h"
+	"isteamclient.h"
+	"isteamfriends.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/matchmakingtypes.h
+	<stdio.h>
+	<string.h>
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamuserstats.h
+	"isteamclient.h"
+	"isteamremotestorage.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamremotestorage.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamapps.h
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamnetworking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamscreenshots.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteammusic.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteammusicremote.h
+	"isteamclient.h"
+	"isteammusic.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamhttp.h
+	"isteamclient.h"
+	"steamhttpenums.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/steamhttpenums.h
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamcontroller.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamugc.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamapplist.h
+	"isteamclient.h"
+	"steamtypes.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamhtmlsurface.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteaminventory.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamvideo.h
+	"isteamclient.h"
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/isteamparentalsettings.h
+
+1543530034 /home/pi/Desktop/termite/projects/steam/steam/steam_api_internal.h
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/begin_code.h
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/close_code.h
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_windows.h
+	"SDL_platform.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_iphoneos.h
+	"SDL_platform.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_psp.h
+	"SDL_platform.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_os2.h
+	"SDL_platform.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_config_minimal.h
+	"SDL_platform.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530033 /home/pi/Desktop/termite/projects/sdl/include/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543530034 /home/pi/Desktop/termite/sources/bridge.h
+
+1543530034 /home/pi/Desktop/termite/sources/ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1543530034 source:/home/pi/Desktop/termite/sources/voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1543530034 source:/home/pi/Desktop/termite/projects/sdl_pi/bridge.c
+	<stdio.h>
+	<stdlib.h>
+	"../../sources/bridge.h"
+

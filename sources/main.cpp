@@ -257,11 +257,6 @@
                char * argv [ ] )
     {
 
-        // pit this in raspi bridge.c
-        #ifdef RASPBERRY
-        printf( "Please use the KMS OpenGL driver. sudo raspi-config -> Advanced options -> GL Driver -> G1 GL (Full KMS)\n" );
-        #endif
-
         // enable high dpi
 
         SDL_SetHint( SDL_HINT_VIDEO_HIGHDPI_DISABLED , "0" );
