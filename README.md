@@ -102,7 +102,7 @@ The Code::Blocks project file for the Raspberry project is projects/sdl_pi/sdl_l
 
 Deployment : 
 
-Run a release build, final product is undr sdl_ubuntu/bin/Release
+Run a release build, final product is under sdl_ubuntu/bin/Release
 
 
 ### Windows project compilation and deployment
