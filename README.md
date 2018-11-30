@@ -190,7 +190,7 @@ Place your scripts under tools/contentBuilder/scripts, one for the app and one f
 
 ## Testing
 
-I used VMWare to virtualize Windows, Linux and SteamOS on my MacBook. Your other option is Parallels because VirtualBox can only emulate OpenGL 1.0 which is ancient and you won't develop games for it in the 3rd millennia. Your free option is dual-boot or to use a dedicated machine. I used a shared folder to exchange data between the MacOS host and the linux guest. Mainly for sending the compiled game files to the host to pack them together with SteamWorks SDK, but you can deploy depots independently from the corresponding platforms if you are brave enough. 
+I used VMWare to virtualize Windows, Linux and SteamOS on my MacBook. Your other option is Parallels because VirtualBox can only emulate OpenGL 1.0 which is ancient and you won't develop games for it in the 3rd millennia. Your free option is dual-booting or to use a dedicated machine. I used a shared folder to exchange data between the MacOS host and the guest OSs. Mainly for sending the compiled game files to the host to pack them together with SteamWorks SDK, but you can deploy depots independently from the corresponding platforms if you are brave enough. 
 
 You have to install Steam on all platforms ( besides SteamOS ) and the Steam client must run to make in-app purchases work.
 
