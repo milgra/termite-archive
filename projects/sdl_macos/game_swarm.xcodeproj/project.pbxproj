@@ -638,6 +638,7 @@
 		33325C4920F38D74004B97CF /* game_swarm */ = {
 			isa = PBXGroup;
 			children = (
+				33C1184421B0305000B67F2A /* bridge.c */,
 				33B4B17B21AAF80600710503 /* LICENSE */,
 				33B4B17C21AAF80700710503 /* README.md */,
 				33325C4D20F38D75004B97CF /* Assets.xcassets */,
@@ -694,7 +695,6 @@
 		33325C9720F38FDE004B97CF /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				33C1184321B0303200B67F2A /* macos */,
 				33325C9F20F38FDE004B97CF /* shaders */,
 				33325C9920F38FDE004B97CF /* ant.c */,
 				334D74DB2143EB7A004F6548 /* control.c */,
@@ -1431,14 +1431,6 @@
 				33B4B16C21AAA90400710503 /* hidapi.h */,
 			);
 			path = hidapi;
-			sourceTree = "<group>";
-		};
-		33C1184321B0303200B67F2A /* macos */ = {
-			isa = PBXGroup;
-			children = (
-				33C1184421B0305000B67F2A /* bridge.c */,
-			);
-			path = macos;
 			sourceTree = "<group>";
 		};
 		33C1184821B0376100B67F2A /* steam */ = {
