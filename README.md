@@ -259,13 +259,13 @@ Linux :
 
 CodeBlocks :
 
-Setting up compiler and linker include paths is a vital part for CodeBlocks/C compilation. Always check everything in project/build options. Always select the full release, the most common mistake is to set things for Debug or Release target only and you have no idea why it isn't working. Check compiler include paths, linker include paths for both targets carefully, check compiler and linker options also carefully. 
+- Setting up compiler and linker include paths is a vital part for CodeBlocks/C compilation. Always check everything in project/build options. Always select the full release, the most common mistake is to set things for Debug or Release target only and you have no idea why it isn't working. Check compiler include paths, linker include paths for both targets carefully, check compiler and linker options also carefully. 
 
 SteamWorks :
 
-When uploading new inventory item descriptions be sure to validate it with an online json validator because steam won't tell you much about its problems - it just rejects the file. Good practice to start with the simplest file - one item and the unnecessary elements - and extend it if steam accepts is.
+- When uploading new inventory item descriptions be sure to validate it with an online json validator because steam won't tell you much about its problems - it just rejects the file. Good practice to start with the simplest file - one item and the unnecessary elements - and extend it if steam accepts is.
 
-If Invetory Store stops working for testers, try to disabe/enable the steam inventory store for your app, it worked for me.
+- If Invetory Store stops working for testers, try to disabe/enable the steam inventory store for your app, it worked for me.
 
 --
 
