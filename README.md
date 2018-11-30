@@ -22,7 +22,9 @@ Comment on Termite/Message the author :
 
 <a href="http://milgra.com/termite.html">Termite homepage</a>
 
-If this project helped you, please donate from the game or through at <a hrep="https://www.paypal.me/milgra">paypal.me/milgra</a>
+If this project helped you, please donate from the game or through at 
+
+<a href="https://www.paypal.me/milgra">paypal.me/milgra</a>
 
 ---
 
