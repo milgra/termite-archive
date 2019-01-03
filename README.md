@@ -267,7 +267,7 @@ SteamWorks :
 
 - If Invetory Store stops working for testers, try to disabe/enable the steam inventory store for your app, it worked for me.
 
---
+---
 
 ## My humble opinion on platforms
 
