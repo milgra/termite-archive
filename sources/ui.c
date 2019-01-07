@@ -168,11 +168,14 @@
 					  	defaults.textcolor_a ,
 					  	defaults.buttoncolor_a ,
 						8.0 );
+		
+		char version[ 20 ] = { 0 };
+		
+		snprintf( version , 20 , "%s D%i" , TERMITE_VERSION , defaults.items_arrived );
 
-        itemcsize = pixeltext_calcsize( TERMITE_VERSION ,
-                                        5.0 );
+        itemcsize = pixeltext_calcsize( version , 5.0 );
 
-        ui_add_button(  TERMITE_VERSION ,
+        ui_add_button(  version ,
                         ( itemasize.x - itemcsize.x ) / -2.0 + 4 * MARGIN ,
                         #if defined(IOS) || defined(ANDROID)
                         -HTH + itemcsize.y + 2 * MARGIN,
