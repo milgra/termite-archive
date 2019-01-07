@@ -55,7 +55,8 @@
 		v2_t display_size;
         float text_scale;
   
-        char prices_arrived;
+        char items_arrived;		// purchased items arrived from stores
+        char prices_arrived;	// prices arrived from stores
         char prices[3][100];
 
     } defaults_t;

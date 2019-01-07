@@ -177,7 +177,6 @@ void CInventory::OnItemsReceived( SteamInventoryResultReady_t* callback )
 			
 			if ( bGotResult )
 			{
-				// For everything already in the inventory, check for update or removal
 
 				for ( int index = 0 ;
 						  index < count ;
@@ -190,6 +189,10 @@ void CInventory::OnItemsReceived( SteamInventoryResultReady_t* callback )
 							detail.m_itemId ,
 							detail.m_iDefinition ,
 							detail.m_unQuantity  );
+
+					defaults.items_arrived = 1;
+					
+					// SteamInventory()->ConsumeItem( NULL , detail.m_itemId , detail.m_unQuantity );
 
 				}
 

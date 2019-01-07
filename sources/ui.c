@@ -616,6 +616,14 @@
             mtvec_add( mainitems , mtstr_frombytes( "THANK YOU!!!" ) );
             mtvec_add( mainitems , mtstr_frombytes( "BACK" ) );
         }
+        else if ( strcmp( menuitem , "PLSGIVE" ) == 0 )
+        {
+            mtvec_add( mainitems , mtstr_frombytes( "TO PLAY LEVEL 22-32" ) );
+            mtvec_add( mainitems , mtstr_frombytes( "PLEASE DONATE FROM THE" ) );
+            mtvec_add( mainitems , mtstr_frombytes( "MAIN MENU" ) );
+            mtvec_add( mainitems , mtstr_frombytes( "" ) );
+            mtvec_add( mainitems , mtstr_frombytes( "BACK" ) );
+        }
 
         REL_VEC_ITEMS( mainitems );
 
@@ -701,9 +709,22 @@
 
 				if ( level <= defaults.highest_level )
 				{
-					ui_loadlevel( level );
-                    if ( level == 32 ) ui_changestate( UISTATE_GAME , NULL );
-					else ui_changestate( UISTATE_START , NULL );
+					// ask for donation
+					if ( defaults.items_arrived == 0 && level > 21 )
+					{
+					
+						ui_changestate( UISTATE_MAIN , "PLSGIVE" );
+						
+					}
+					else
+					{
+				
+						ui_loadlevel( level );
+						if ( level == 32 ) ui_changestate( UISTATE_GAME , NULL );
+						else ui_changestate( UISTATE_START , NULL );
+					
+					}
+					
 				}
 
 			}
@@ -805,8 +826,16 @@
 			if ( defaults.current_level == -1 ) ui_changestate( UISTATE_MAIN , NULL );
 			else
 			{
+
 				ui_loadlevel( defaults.current_level + 1 );
-                if ( defaults.current_level == 32 ) ui_changestate( UISTATE_GAME , NULL );
+
+				if ( defaults.items_arrived == 0 && defaults.current_level > 21 )
+				{
+					// ask for donation
+					ui_changestate( UISTATE_MAIN , "PLSGIVE" );
+					
+				}
+				else if ( defaults.current_level == 32 ) ui_changestate( UISTATE_GAME , NULL );
                 else ui_changestate( UISTATE_START , NULL );
 			}
 		}
