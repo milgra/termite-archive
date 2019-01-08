@@ -617,9 +617,9 @@
         }
         else if ( strcmp( menuitem , "PLSGIVE" ) == 0 )
         {
-            mtvec_add( mainitems , mtstr_frombytes( "TO PLAY LEVEL 22-32" ) );
-            mtvec_add( mainitems , mtstr_frombytes( "PLEASE DONATE FROM THE" ) );
-            mtvec_add( mainitems , mtstr_frombytes( "MAIN MENU" ) );
+            mtvec_add( mainitems , mtstr_frombytes( "TO PLAY" ) );
+            mtvec_add( mainitems , mtstr_frombytes( "LEVEL 22-32" ) );
+            mtvec_add( mainitems , mtstr_frombytes( "PLEASE DONATE" ) );
             mtvec_add( mainitems , mtstr_frombytes( "" ) );
             mtvec_add( mainitems , mtstr_frombytes( "BACK" ) );
         }
