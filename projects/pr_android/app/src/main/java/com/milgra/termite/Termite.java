@@ -35,6 +35,7 @@ public class Termite extends SDLActivity implements PurchasesUpdatedListener {
 
     private native void storeitem(int index , String name);
     private native void showdonate( );
+    private native void storedonation( );
 
     // Setup
     @Override
@@ -143,6 +144,7 @@ public class Termite extends SDLActivity implements PurchasesUpdatedListener {
             for (Purchase purchase : purchases)
             {
                 Log.i( "TERMITE" , "Purchases completed " + purchase );
+                storedonation();
             }
         }
         else if (responseCode == BillingResponse.USER_CANCELED)

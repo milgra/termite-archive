@@ -103,9 +103,24 @@ JNIEXPORT jstring JNICALL Java_com_milgra_termite_Termite_showdonate(
         jint index,
         jstring name)
 {
-    __android_log_print(ANDROID_LOG_INFO, "TERMITE", "showdinate" );
+    __android_log_print(ANDROID_LOG_INFO, "TERMITE", "showdonate" );
 
     defaults.prices_arrived = 1;
 
     //mtbus_notify( "CTL", "SHOWDONATION" , NULL );
+}
+
+JNIEXPORT jstring JNICALL Java_com_milgra_termite_Termite_storedonation(
+        JNIEnv* env,
+        jobject cls )
+{
+
+    javaEnv = env;
+    (*env)->GetJavaVM( javaEnv , &javaVM );
+
+    __android_log_print(ANDROID_LOG_INFO, "TERMITE", "storedonation" );
+
+    defaults.donation_arrived = 1;
+    defaults_save( );
+
 }

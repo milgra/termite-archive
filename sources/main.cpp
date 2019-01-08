@@ -286,7 +286,7 @@
                 height = displaymode.h * 0.8;
             }
 
-            #if defined(IOS) && defined(ANDROID)
+            #if defined(IOS) || defined(ANDROID)
             width = displaymode.w;
             height = displaymode.h;
             #endif
