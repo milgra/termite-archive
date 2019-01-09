@@ -1615,7 +1615,7 @@
 	"../tools/math3.c"
 	"../tools/math4.c"
 
-1543530034 /home/pi/Desktop/termite/sources/defaults.c
+1547025782 /home/pi/Desktop/termite/sources/defaults.c
 	<stdlib.h>
 	<stdint.h>
 	"../framework/tools/math2.c"
@@ -1635,7 +1635,7 @@
 	"defaults.c"
 	<float.h>
 
-1543530034 source:/home/pi/Desktop/termite/sources/defaults.c
+1547025782 source:/home/pi/Desktop/termite/sources/defaults.c
 	<stdlib.h>
 	<stdint.h>
 	"../framework/tools/math2.c"
@@ -1818,7 +1818,7 @@
 	"defaults.c"
 	"../framework/core/mtbus.c"
 
-1543530034 source:/home/pi/Desktop/termite/sources/ui.c
+1547025446 source:/home/pi/Desktop/termite/sources/ui.c
 	<float.h>
 	"../framework/core/mtstr.c"
 	"../framework/core/mtcstr.c"
@@ -1842,7 +1842,7 @@
 	"../core/mtvec.c"
 	"math2.c"
 
-1543530444 source:/home/pi/Desktop/termite/sources/main.cpp
+1547025446 source:/home/pi/Desktop/termite/sources/main.cpp
 	"../projects/steam/CInventory.hpp"
 	<OpenGLES/ES1/gl.h>
 	<OpenGLES/ES1/glext.h>
@@ -1860,7 +1860,7 @@
 	"../framework/core/mtcstr.c"
 	"../framework/tools/settings.c"
 
-1543530034 /home/pi/Desktop/termite/projects/steam/CInventory.hpp
+1547025446 /home/pi/Desktop/termite/projects/steam/CInventory.hpp
 	<stdio.h>
 	"steam/steam_api.h"
 
@@ -2351,7 +2351,7 @@
 
 1543530034 /home/pi/Desktop/termite/sources/bridge.h
 
-1543530034 /home/pi/Desktop/termite/sources/ui.c
+1547026088 /home/pi/Desktop/termite/sources/ui.c
 	<float.h>
 	"../framework/core/mtstr.c"
 	"../framework/core/mtcstr.c"
@@ -2381,4 +2381,10 @@
 	<stdio.h>
 	<stdlib.h>
 	"../../sources/bridge.h"
+
+1547025898 source:/home/pi/Desktop/termite/projects/pr_raspbian/bridge.c
+	<stdio.h>
+	<stdlib.h>
+	"../../sources/bridge.h"
+	"../../sources/defaults.c"
 

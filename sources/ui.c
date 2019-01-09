@@ -61,7 +61,7 @@
         v2_t 		screen;
         m4_t 		mat_proj;
         m4_t 		mat_pers;
-        
+
         float 		base_scale;
         float 		base_angle;
         float 		curr_angle;
@@ -168,7 +168,7 @@
 					  	defaults.textcolor_a ,
 					  	defaults.buttoncolor_a ,
 						8.0 );
-		
+
         itemcsize = pixeltext_calcsize( TERMITE_VERSION , 5.0 );
 
         ui_add_button(  TERMITE_VERSION ,
@@ -369,7 +369,7 @@
         float       size = 120.0;
         float       start = -220.0;
         float       textsize = 10.0;
-        
+
         if ( defaults.text_scale > 1.0 ) textsize = 12.0;
 
     	ui_generate_background( );
@@ -497,7 +497,7 @@
 
         float camera_fov_y = M_PI / 4.0;
         float camera_eye_z = ( ui.screen.y / 2.0 ) / ( tanf( camera_fov_y / 2.0 ) );
-        
+
         float min = camera_eye_z - ( HTH / 2.0 ) * ui.base_scale;
         float max = camera_eye_z + ( HTH / 2.0 ) * ui.base_scale;
         if ( min < 10.0 ) min = 10.0;
@@ -506,7 +506,7 @@
 											ui.screen.x / ui.screen.y ,
         									min ,
         									max );
-        
+
         m4_t trans = m4_defaulttranslation( 0 , 0 , -camera_eye_z );
 
 		ui.mat_pers = m4_multiply( pers , trans );
@@ -519,7 +519,7 @@
     {
 
 		ui.curr_angle += ( ui.base_angle - ui.curr_angle ) / 20.0;
-  
+
         m4_t angle_matrix = m4_defaultrotation( ui.curr_angle ,
         										0.0 ,
         										0.0 );
@@ -711,19 +711,19 @@
 					// ask for donation
 					if ( defaults.donation_arrived == 0 && level > 21 )
 					{
-					
+
 						ui_changestate( UISTATE_MAIN , "PLSGIVE" );
-						
+
 					}
 					else
 					{
-				
+
 						ui_loadlevel( level );
 						if ( level == 32 ) ui_changestate( UISTATE_GAME , NULL );
 						else ui_changestate( UISTATE_START , NULL );
-					
+
 					}
-					
+
 				}
 
 			}
@@ -740,7 +740,14 @@
 
 		else if ( strcmp( name , "PLAY" 			) == 0 ) ui_changestate( UISTATE_MAIN , "PLAY" );
 		else if ( strcmp( name , "OPTIONS" 			) == 0 ) ui_changestate( UISTATE_MAIN , "OPTIONS" );
-		else if ( strcmp( name , "DONATE" 			) == 0 ) ui_changestate( UISTATE_MAIN , "DONATE" );
+		else if ( strcmp( name , "DONATE" 			) == 0 )
+		{
+            #ifdef RASPBERRY
+            mtbus_notify( "UI", "DONATE" , name );
+            #else
+            ui_changestate( UISTATE_MAIN , "DONATE" );
+            #endif
+		}
 		else if ( strcmp( name , "EXIT" 			) == 0 ) mtbus_notify( "UI" , "EXIT" , NULL );
 
 		else if ( strcmp( name , "TOURNAMENT" 		) == 0 ) ui_changestate( UISTATE_GRID_A , NULL );
@@ -832,7 +839,7 @@
 				{
 					// ask for donation
 					ui_changestate( UISTATE_MAIN , "PLSGIVE" );
-					
+
 				}
 				else if ( defaults.current_level == 32 ) ui_changestate( UISTATE_GAME , NULL );
                 else ui_changestate( UISTATE_START , NULL );
@@ -996,7 +1003,7 @@
             ui_updatescale( );
             ui_updateperspective( );
             ui_updateprojection( );
-            
+
             if ( ui.state == UISTATE_MAIN ) ui_loadlevel( 0 );
 
         }
@@ -1021,7 +1028,7 @@
                 defaults.highest_level = defaults.current_level + 1;
                 defaults_save( );
             }
-			
+
         	ui_changestate( UISTATE_WON , NULL );
 
 		}

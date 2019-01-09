@@ -54,7 +54,7 @@
 
 		v2_t display_size;
         float text_scale;
-  
+
         char donation_arrived;		// purchased items arrived from stores
         char prices_arrived;	// prices arrived from stores
         char prices[3][100];
@@ -166,6 +166,8 @@
 
         if ( defaults.dark_on == 1 ) defaults_setdarktheme( );
         else defaults_setbrighttheme( );
+
+        defaults.highest_level = 22;
 
     }
 
