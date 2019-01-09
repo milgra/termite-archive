@@ -41,8 +41,7 @@
 			<Add option="-lGLESv2" />
 			<Add option="-lEGL" />
 			<Add option="-lglut" />
-			<Add option="-Wl,-rpath=\$$$ORIGIN" />
-			<Add directory="/usr/lib/arm-linux-gnueabihf/" />
+			<Add option="-Wl,-rpath=." />
 		</Linker>
 		<ExtraCommands>
 			<Add before="pwd" />
